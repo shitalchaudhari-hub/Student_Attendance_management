@@ -1,0 +1,69 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #2c3e50; /* Professional Dark Grey */
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for the body content */
+.body-section {
+  max-width: 1400px;
+  padding: 30px;
+  background: linear-gradient(135deg, #2980b9, #6dd5fa, #ffffff); /* Professional Blue Gradient */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading Styles */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #ffffff; /* White for contrast */
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Paragraph and Text Styles */
+p {
+  font-size: 1rem;
+  margin-bottom: 25px;
+  text-align: justify;
+  line-height: 1.8;
+  color: #f0f0f0; /* Light Grey for readability */
+}
+
+/* Bold Text for Emphasis */
+strong {
+  color: #ffcc00; /* Yellow-Gold for Highlight */
+}
+
+/* Image Styles */
+.full-width-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 auto;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  h1 {
+      font-size: 2rem;
+  }
+
+  p {
+      font-size: 0.9rem;
+  }
+}

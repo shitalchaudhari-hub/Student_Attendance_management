@@ -1,0 +1,55 @@
+body {
+  background-color: #f0f2f5;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: 6%;
+}
+
+.card {
+  width: 100%;
+  max-width: 900px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+input, select {
+  border-radius: 5px;
+}
+
+button {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.text-danger {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* Center the submit button */
+.form-row {
+  margin-bottom: 20px;
+}
+
+.card form {
+  display: flex;
+  flex-direction: column;
+}
+
+button[type="submit"] {
+  width: 200px;
+  margin: 20px auto;
+}
